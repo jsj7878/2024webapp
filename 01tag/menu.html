@@ -11,7 +11,7 @@
         .clear:after{
             content: "";
             display: block;
-            margin: 0 auto;
+            clear: both;
         }
         .hd{
             background-color: blue;
@@ -32,17 +32,62 @@
             width: 100%;
             text-align: center;
         }
+        .visual{
+            background-color: green;
+            height: 400px;
+            margin-bottom: 1em;
+        }
+        .section{
+            width: 1360px;
+            margin: 0 auto;
+            margin-bottom: 1em;
+        }
+        .section .sectionleft{
+            float:left;
+            width:1000px;
+            background-color: skyblue;
+        }
+        .section .sectionright{
+            float:right;
+            width: 300px;
+            background-color: pink;
+        }
+        .section div{height: 700px;}
+        
+        .ft{
+            padding: 20px 0;
+            background-color: green;
+        }
+        .ft div{
+            width: 1360px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: orange;
+            padding: 10px 0 ;
+        }
     </style>
 </head>
 <body>
     <header class="hd">
         <ul class="menu clear">
-            <li><a href="">menu1</a></li>
-            <li><a href="">menu2</a></li>
-            <li><a href="">menu3</a></li>
-            <li><a href="">menu4</a></li>
-            <li><a href="">menu5</a></li>
+            <li><a href="#">menu1</a></li>
+            <li><a href="#">menu2</a></li>
+            <li><a href="#">menu3</a></li>
+            <li><a href="#">menu4</a></li>
+            <li><a href="#">menu5</a></li>
         </ul>
     </header>
+    <div class="visual"> slide </div>
+
+    <section class="section clear">
+        <div class="sectionleft">left</div>
+        <div class="sectionright">right</div>
+    </section>
+
+    <footer class="ft">
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sit?
+        </div>
+    </footer>
 </body>
 </html>
