@@ -45,6 +45,7 @@ body{
 .menuWrap .gnb li{
     width: 150px;
     height: 70px;
+    /* background-color: black; */
 }
 
 .menuWrap .gnb a{
